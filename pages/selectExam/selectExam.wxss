@@ -1,0 +1,13 @@
+.technologyExam,.lifeExam,.naturalExam{
+  position: absolute;
+  width: 650rpx;
+  height: 1042rpx;
+  left: 50%;
+  top: 4%;
+  transform: translate(-50%,0);
+}
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}

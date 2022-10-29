@@ -1,0 +1,12 @@
+<!-- 河北省地质博物馆 -->
+<view>
+  <view class="title">
+    {{name}}
+  </view>
+  <view wx:for="{{describe}}" wx:key="index" class="describe">
+    {{item}}
+  </view>
+  <view class="aboutImgView">
+    <image src="{{aboutImg}}" class="aboutImg" mode="aspectFit"></image>
+  </view>
+</view>

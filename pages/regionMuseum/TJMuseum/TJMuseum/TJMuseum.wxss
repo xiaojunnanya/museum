@@ -1,0 +1,110 @@
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
+/* 天津自然博物馆 */
+.tjNatural{
+  position: absolute;
+  width: 260rpx;
+  height: 230rpx;
+  top:14.5%;
+  left: 47%;
+  animation:tjNatural 1s;
+  animation-timing-function: linear;
+}
+@keyframes tjNatural
+{
+	0%{width:0rpx;height: 0rpx;top: 32%;left: 63%;}
+  100% {width:260rpx;height: 230rpx;top: 14.5%;left: 47%;}
+}
+/* 蓟县地质博物馆 */
+.jixianGeology{
+  position: absolute;
+  width: 260rpx;
+  height: 230rpx;
+  top:20%;
+  left: 5%;
+  animation:jixianGeology 1s;
+  animation-timing-function: linear;
+}
+@keyframes jixianGeology
+{
+	0%{width:0rpx;height: 0rpx;top: 38%;left: 21%;}
+  100% {width:260rpx;height: 230rpx;top: 20%;left: 5%;}
+}
+/* 国家海洋博物馆 */
+.countryOcean{
+  position: absolute;
+  width: 260rpx;
+  height: 233rpx;
+  top:30%;
+  left: 27%;
+  animation:countryOcean 1s;
+  animation-timing-function: linear;
+}
+@keyframes countryOcean
+{
+	0%{width:0rpx;height: 0rpx;top: 48%;left: 43%;}
+  100% {width:260rpx;height: 233rpx;top: 30%;left: 27%;}
+}
+/* 天津节水科技馆 */
+.tjSaveWater{
+  position: absolute;
+  width: 260rpx;
+  height: 230rpx;
+  top:35%;
+  left: 59%;
+  animation:tjSaveWater 1s;
+  animation-timing-function: linear;
+}
+@keyframes tjSaveWater
+{
+	0%{width:0rpx;height: 0rpx;top: 53%;left: 75%;}
+  100% {width:260rpx;height: 230rpx;top: 35%;left: 59%;}
+}
+/* 天津电力科技博物馆 */
+.tjElectric{
+  position: absolute;
+  width: 260rpx;
+  height: 230rpx;
+  top:49%;
+  left: 39%;
+  animation:tjElectric 1s;
+  animation-timing-function: linear;
+}
+@keyframes tjElectric
+{
+	0%{width:0rpx;height: 0rpx;top: 67%;left: 55%;}
+  100% {width:260rpx;height: 230rpx;top: 49%;left: 39%;}
+}
+/* 天津科学技术馆 */
+.tjScience{
+  position: absolute;
+  width: 260rpx;
+  height: 230rpx;
+  top:57%;
+  left: 5%;
+  animation:tjScience 1s;
+  animation-timing-function: linear;
+}
+@keyframes tjScience
+{
+	0%{width:0rpx;height: 0rpx;top: 75%;left: 21%;}
+  100% {width:260rpx;height: 230rpx;top: 57%;left: 5%;}
+}
+/* 滨海技术馆 */
+.bhTechnology{
+  position: absolute;
+  width: 260rpx;
+  height: 230rpx;
+  top:66.5%;
+  left: 51%;
+  animation:bhTechnology 1s;
+  animation-timing-function: linear;
+}
+@keyframes bhTechnology
+{
+	0%{width:0rpx;height: 0rpx;top: 85%;left: 67%;}
+  100% {width:260rpx;height: 230rpx;top: 66.5%;left: 51%;}
+}

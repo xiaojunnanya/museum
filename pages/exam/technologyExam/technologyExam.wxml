@@ -1,0 +1,19 @@
+<!-- 科技答题 -->
+<view style="padding-bottom: 20rpx;">
+  <view wx:for="{{data}}" class="allExam" wx:key="index" bindtap="sendIndex" data-index="{{index}}">
+    <view class="titleExam">{{index+1}}、{{item.text}}</view>
+    <view class="optionExam">
+      <view>
+        <radio-group bindchange="handleChange">
+          <radio value="{{index+1}}" wx:for-item="optionItem" wx:for-index="optionIndex" wx:for="{{item.option}}" class="{{ ((item.answer == optionIndex+1) && (showAnswer)) ? 'trueAnswer':'falseAnswer'}}"  checked="{{checked}}" disabled="{{disabled}}" wx:key="optionIndex">
+            {{optionItem}}
+            <!-- color="#1989FA" -->
+          </radio>
+        </radio-group>
+      </view>
+    </view>
+  </view>
+  <view>
+    <button class="submitExam" bindtap="submit" hidden="{{hidden}}">提交</button>
+  </view>
+</view>

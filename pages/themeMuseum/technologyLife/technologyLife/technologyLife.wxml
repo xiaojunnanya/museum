@@ -1,0 +1,21 @@
+<!--科技-生活-->
+<view style="position: relative;">
+  <!-- 北京科技中心 -->
+  <image src="{{technologyLife01}}" mode="aspectFit" class="bjTechnology" bindtap="bjTechnology"></image>
+  <!-- 滨海科技馆 -->
+  <image src="{{technologyLife02}}" mode="aspectFit" class="bhTechnology" bindtap="bhTechnology"></image>
+  <!-- 天津电力科技博物馆 -->
+  <image src="{{technologyLife03}}" mode="aspectFit" class="tjElectric" bindtap="tjElectric"></image>
+  <!-- 中国测绘科技馆 -->
+  <image src="{{technologyLife04}}" mode="aspectFit" class="chineseMapping" bindtap="chineseMapping"></image>
+  <!-- 中国科学技术馆 -->
+  <image src="{{technologyLife05}}" mode="aspectFit" class="chineseScience" bindtap="chineseScience"></image>
+  <!-- 天津科学技术馆 -->
+  <image src="{{technologyLife06}}" mode="aspectFit" class="tjScience" bindtap="tjScience"></image>
+  <!-- 河北省科学技术馆 -->
+  <image src="{{technologyLife07}}" mode="aspectFit" class="hbScience" bindtap="hbScience"></image>
+  <!-- 北京市海淀科技中心馆 -->
+  <image src="{{technologyLife08}}" mode="aspectFit" class="bjhdTechnology" bindtap="bjhdTechnology"></image>
+  <!-- 背景图 -->
+  <image src="{{technologyLife}}" mode="scaleToFill" class="main"></image>
+</view>

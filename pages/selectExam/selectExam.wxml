@@ -1,0 +1,9 @@
+<!-- 选择的是主题博物馆还是区域博物馆 -->
+<view style="position: relative;">
+  <!-- 主题博物馆体验 -->
+  <image src="/image/selectExam/selectExam03.png" mode="aspectFit" class="naturalExam"></image>
+  <image src="/image/selectExam/selectExam02.png" mode="aspectFit" class="lifeExam"></image>
+  <image src="/image/selectExam/selectExam01.png" mode="aspectFit" class="technologyExam"></image>
+  <!-- 背景图 -->
+  <image src="/image/selectExam/selectExam.png" mode="scaleToFill" class="main"></image>
+</view>

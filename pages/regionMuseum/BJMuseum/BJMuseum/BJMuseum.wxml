@@ -1,0 +1,25 @@
+<!--北京-->
+<view style="position: relative;">
+  <!-- 中国地址博物馆 -->
+  <image src="{{BJ01}}" mode="aspectFit" class="chineseGeology" bindtap="chineseGeology"></image>
+  <!-- 中国农业博物馆 -->
+  <image src="{{BJ02}}" mode="aspectFit" class="chineseAgriculture" bindtap="chineseAgriculture"></image>
+  <!-- 北京自然博物馆 -->
+  <image src="{{BJ03}}" mode="aspectFit" class="bjNatural" bindtap="bjNatural"></image>
+  <!-- 中国科学技术馆 -->
+  <image src="{{BJ04}}" mode="aspectFit" class="chineseScience" bindtap="chineseScience"></image>
+  <!-- 北京科学中心 -->
+  <image src="{{BJ05}}" mode="aspectFit" class="bjTechnology" bindtap="bjTechnology"></image>
+  <!-- 国家动物博物馆 -->
+  <image src="{{BJ06}}" mode="aspectFit" class="chineseAnimal" bindtap="chineseAnimal"></image>
+  <!-- 北京急救科技馆 -->
+  <image src="{{BJ07}}" mode="aspectFit" class="bjFirstAid" bindtap="bjFirstAid"></image>
+  <!-- 北京天文馆 -->
+  <image src="{{BJ08}}" mode="aspectFit" class="bjAstronomy" bindtap="bjAstronomy"></image>
+  <!-- 中国测绘科技馆 -->
+  <image src="{{BJ09}}" mode="aspectFit" class="chineseMapping" bindtap="chineseMapping"></image>
+  <!-- 北京市海淀科技中心馆 -->
+  <image src="{{BJ10}}" mode="aspectFit" class="bjhdTechnology" bindtap="bjhdTechnology"></image>
+  <!-- 背景图 -->
+  <image src="{{BJ}}" mode="scaleToFill" class="main"></image>
+</view>

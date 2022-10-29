@@ -1,0 +1,19 @@
+<!--地球-地质-->
+<view style="position: relative;">
+  <!-- 中国地址博物馆 -->
+  <image src="{{earthGeology01}}" mode="aspectFit" class="chineseGeology" bindtap="chineseGeology"></image>
+  <!-- 中国唐山地震博物馆 -->
+  <image src="{{earthGeology02}}" mode="aspectFit" class="chineseTangshang" bindtap="chineseTangshang"></image>
+  <!-- 热河博物馆 -->
+  <image src="{{earthGeology03}}" mode="aspectFit" class="hotGeology" bindtap="hotGeology"></image>
+  <!-- 柳江地学博物馆 -->
+  <image src="{{earthGeology04}}" mode="aspectFit" class="liujiangGeology" bindtap="liujiangGeology"></image>
+  <!-- 蓟县地质博物馆 -->
+  <image src="{{earthGeology05}}" mode="aspectFit" class="jixianGeology" bindtap="jixianGeology"></image>
+  <!-- 河北省地质博物馆 -->
+  <image src="{{earthGeology06}}" mode="aspectFit" class="HBGeology" bindtap="HBGeology"></image>
+  <!-- 河北地质大学地球科学博物馆 -->
+  <image src="{{earthGeology07}}" mode="aspectFit" class="HBGEOEarth" bindtap="HBGEOEarth"></image>
+  <!-- 背景图 -->
+  <image src="{{earthGeology}}" mode="scaleToFill" class="main"></image>
+</view>

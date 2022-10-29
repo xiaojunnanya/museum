@@ -1,0 +1,26 @@
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
+.HB{
+  position: absolute;
+  /* width: 170rpx;
+  height: 100rpx;
+  top:48%;
+  left: 38%; */
+}
+.BJ{
+  position: absolute;
+  /* width: 135rpx;
+  height: 135rpx;
+  top:67%;
+  left: 60%; */
+}
+.TJ{
+  position: absolute;
+  /* width: 175rpx;
+  height: 120rpx;
+  top:67%;
+  left: 21%; */
+}

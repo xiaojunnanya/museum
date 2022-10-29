@@ -1,0 +1,19 @@
+<!--生命-动物-->
+<view style="position: relative;">
+  <!-- 秦皇岛鸟类博物馆 -->
+  <image src="{{lifeAnimal01}}" mode="aspectFit" class="qhdBird" bindtap="qhdBird"></image>
+  <!-- 北京急救科技馆 -->
+  <image src="{{lifeAnimal02}}" mode="aspectFit" class="bjFirstAid" bindtap="bjFirstAid"></image>
+  <!-- 北京自然博物馆 -->
+  <image src="{{lifeAnimal03}}" mode="aspectFit" class="bjNatural" bindtap="bjNatural"></image>
+  <!-- 贝壳王国科普博物馆博物馆 -->
+  <image src="{{lifeAnimal04}}" mode="aspectFit" class="shell" bindtap="shell"></image>
+  <!-- 国家动物博物馆 -->
+  <image src="{{lifeAnimal05}}" mode="aspectFit" class="chineseAnimal" bindtap="chineseAnimal"></image>
+  <!-- 中国古博物馆 -->
+  <image src="{{lifeAnimal06}}" mode="aspectFit" class="chineseAncient" bindtap="chineseAncient"></image>
+  <!-- 中国农业博物馆 -->
+  <image src="{{lifeAnimal07}}" mode="aspectFit" class="chineseAgriculture" bindtap="chineseAgriculture"></image>
+  <!-- 背景图 -->
+  <image src="{{lifeAnimal}}" mode="scaleToFill" class="main"></image>
+</view>

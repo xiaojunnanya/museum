@@ -1,0 +1,6 @@
+<view style="position: relative;">
+  <!-- 点击进去的按钮 -->
+  <image src="{{indexClick}}" mode="aspectFit" class="into" bindtap="into"></image>
+  <!-- 背景图 -->
+  <image src="{{index}}" mode="scaleToFill" class="main"></image>
+</view>

@@ -1,0 +1,155 @@
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
+/* 中国地质博物馆 */
+.chineseGeology{
+  position: absolute;
+  width: 230rpx;
+  height: 143rpx;
+  top: 18%;
+  left: 16%;
+  animation:chineseGeology 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseGeology
+{
+	0%{width:230rpx;height: 143rpx;top: 100%;left: 16%;}
+  100% {width:230rpx;height: 143rpx;top: 18%;left: 16%;}
+}
+/* 中国农业博物馆 */
+.chineseAgriculture{
+  position: absolute;
+  width: 230rpx;
+  height: 171rpx;
+  top: 33%;
+  left: 16%;
+  animation:chineseAgriculture 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseAgriculture
+{
+	0%{width:230rpx;height: 171rpx;top: 100%;left: 16%;}
+  100% {width:230rpx;height: 171rpx;top: 33%;left: 16%;}
+}
+/* 北京自然博物馆 */
+.bjNatural{
+  position: absolute;
+  width: 230rpx;
+  height: 128rpx;
+  top: 50%;
+  left: 16%;
+  animation:bjNatural 1s;
+  animation-timing-function: linear;
+}
+@keyframes bjNatural
+{
+	0%{width:230rpx;height: 128rpx;top: 100%;left: 16%;}
+  100% {width:230rpx;height: 128rpx;top: 50%;left: 16%;}
+}
+/* 中国科学技术馆 */
+.chineseScience{
+  position: absolute;
+  width: 230rpx;
+  height: 133rpx;
+  top: 62%;
+  left: 16%;
+  animation:chineseScience 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseScience
+{
+	0%{width:230rpx;height: 133rpx;top: 100%;left: 16%;}
+  100% {width:230rpx;height: 133rpx;top: 62%;left: 16%;}
+}
+/* 北京科学中心 */
+.bjTechnology{
+  position: absolute;
+  width: 215rpx;
+  height: 166rpx;
+  top: 75%;
+  left: 16%;
+  animation:bjTechnology 1s;
+  animation-timing-function: linear;
+}
+@keyframes bjTechnology
+{
+	0%{width:215rpx;height: 166rpx;top: 100%;left: 16%;}
+  100% {width:215rpx;height: 166rpx;top: 75%;left: 16%;}
+}
+/* 国家动物博物馆 */
+.chineseAnimal{
+  position: absolute;
+  width: 230rpx;
+  height: 124rpx;
+  top: 23%;
+  left: 56%;
+  animation:chineseAnimal 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseAnimal
+{
+	0%{width:230rpx;height: 124rpx;top: 100%;left: 56%;}
+  100% {width:230rpx;height: 124rpx;top: 23%;left: 56%;}
+}
+/* 北京急救科技馆 */
+.bjFirstAid{
+  position: absolute;
+  width: 230rpx;
+  height: 136rpx;
+  top: 37.3%;
+  left: 56%;
+  animation:bjFirstAid 1s;
+  animation-timing-function: linear;
+}
+@keyframes bjFirstAid
+{
+	0%{width:230rpx;height: 136rpx;top: 100%;left: 56%;}
+  100% {width:230rpx;height: 136rpx;top: 37.3%;left: 56%;}
+}
+/* 北京天文馆 */
+.bjAstronomy{
+  position: absolute;
+  width: 195rpx;
+  height: 189rpx;
+  top: 50%;
+  left: 57%;
+  animation:bjAstronomy 1s;
+  animation-timing-function: linear;
+}
+@keyframes bjAstronomy
+{
+	0%{width:195rpx;height: 189rpx;top: 100%;left: 57%;}
+  100% {width:195rpx;height: 189rpx;top: 50%;left: 57%;}
+}
+/* 中国测绘科技馆 */
+.chineseMapping{
+  position: absolute;
+  width: 230rpx;
+  height: 120rpx;
+  top: 67.3%;
+  left: 54%;
+  animation:chineseMapping 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseMapping
+{
+	0%{width:230rpx;height: 120rpx;top: 100%;left: 54%;}
+  100% {width:230rpx;height: 120rpx;top: 67.3%;left: 54%;}
+}
+/* 北京市海淀科技中心馆 */
+.bjhdTechnology{
+  position: absolute;
+  width: 355rpx;
+  height: 149rpx;
+  top: 80%;
+  left: 46%;
+  animation:bjhdTechnology 1s;
+  animation-timing-function: linear;
+}
+@keyframes bjhdTechnology
+{
+	0%{width:355rpx;height: 149rpx;top: 100%;left: 46%;}
+  100% {width:355rpx;height: 149rpx;top: 80%;left: 46%;}
+}

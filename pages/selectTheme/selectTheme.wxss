@@ -1,0 +1,27 @@
+.themeMuseum{
+  position: absolute;
+  /* width: 350rpx;
+  height: 350rpx;
+  left: 15%;
+  top: 6%; */
+}
+.regionMuseum{
+  position: absolute;
+  /* width: 350rpx;
+  height: 350rpx;
+  left: 43%;
+  top: 50%; */
+}
+.examButton{
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  width: 400rpx;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-50%,0);
+}
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}

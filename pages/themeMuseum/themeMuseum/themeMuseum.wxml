@@ -1,0 +1,13 @@
+<!--主题博物馆-->
+<view style="position: relative;">
+  <!-- 地球-地质 -->
+  <image src="{{themeMuseum01}}" mode="aspectFit" class="earthGeology" bindtap="earthGeology" bindtouchstart="earthGeologyTouchstart" bindtouchend="earthGeologyTouchend" style="width: {{earthGeology.width}};height: {{earthGeology.height}};top: {{earthGeology.top}};left: {{earthGeology.left}};"></image>
+  <!-- 生命-动物 -->
+  <image src="{{themeMuseum02}}" mode="aspectFit" class="lifeAnimal" bindtap="lifeAnimal" bindtouchstart="lifeAnimalTouchstart" bindtouchend="lifeAnimalTouchend" style="width: {{lifeAnimal.width}};height: {{lifeAnimal.height}};top: {{lifeAnimal.top}};left: {{lifeAnimal.left}};"></image>
+  <!-- 自然-海洋 -->
+  <image src="{{themeMuseum03}}" mode="aspectFit" class="naturalOcean" bindtap="naturalOcean" bindtouchstart="naturalOceanTouchstart" bindtouchend="naturalOceanTouchend" style="width: {{naturalOcean.width}};height: {{naturalOcean.height}};top: {{naturalOcean.top}};left: {{naturalOcean.left}};"></image>
+  <!-- 科技-生活 -->
+  <image src="{{themeMuseum04}}" mode="aspectFit" class="technologyLife" bindtap="technologyLife" bindtouchstart="technologyLifeTouchstart" bindtouchend="technologyLifeTouchend" style="width: {{technologyLife.width}};height: {{technologyLife.height}};top: {{technologyLife.top}};left: {{technologyLife.left}};"></image>
+  <!-- 背景图 -->
+  <image src="{{themeMuseum}}" mode="scaleToFill" class="main"></image>
+</view>

@@ -1,0 +1,37 @@
+.into{
+  position: absolute;
+  /* width: 130rpx;
+  height: 60rpx;
+  top: 86%;
+  left: 73%; */
+  animation:into 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes into
+{
+	0%{
+    width: 130rpx;
+    height: 60rpx;
+    top: 86%;
+    left: 73%;
+  }
+  50%{
+    width: 140rpx;
+    height: 65rpx;
+    top: 85.5%;
+    left: 72.5%;
+  }
+  100% 
+  {
+    width: 130rpx;
+    height: 60rpx;
+    top: 86%;
+    left: 73%;
+  }
+}
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}

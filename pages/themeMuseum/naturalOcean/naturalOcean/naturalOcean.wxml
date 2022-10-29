@@ -1,0 +1,19 @@
+<!--自然-海洋-->
+<view style="position: relative;">
+  <!-- 中国航标展馆 -->
+  <image src="{{naturalOcean01}}" mode="aspectFit" class="chineseAviation" bindtap="chineseAviation"></image>
+  <!-- 天津自然博物馆 -->
+  <image src="{{naturalOcean02}}" mode="aspectFit" class="tjNatural" bindtap="tjNatural"></image>
+  <!-- 天津节水科技馆 -->
+  <image src="{{naturalOcean03}}" mode="aspectFit" class="tjSaveWater" bindtap="tjSaveWater"></image>
+  <!-- 河北水利博物馆 -->
+  <image src="{{naturalOcean04}}" mode="aspectFit" class="hbWaterConservancy" bindtap="hbWaterConservancy"></image>
+  <!-- 河北海盐博物馆 -->
+  <image src="{{naturalOcean05}}" mode="aspectFit" class="hbSeaSalt" bindtap="hbSeaSalt"></image>
+  <!-- 国家海洋博物馆 -->
+  <image src="{{naturalOcean06}}" mode="aspectFit" class="countryOcean" bindtap="countryOcean"></image>
+  <!-- 北京天文馆 -->
+  <image src="{{naturalOcean07}}" mode="aspectFit" class="bjAstronomy" bindtap="bjAstronomy"></image>
+  <!-- 背景图 -->
+  <image src="{{naturalOcean}}" mode="scaleToFill" class="main"></image>
+</view>

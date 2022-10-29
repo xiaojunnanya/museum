@@ -1,0 +1,30 @@
+<!--河北-->
+<view style="position: relative;">
+  <!-- 中国古动物馆 -->
+  <image src="{{HB01}}" mode="aspectFit" class="chineseAncient" bindtap="chineseAncient"></image>
+  <!-- 河北水利博物馆 -->
+  <image src="{{HB02}}" mode="aspectFit" class="hbWaterConservancy" bindtap="hbWaterConservancy"></image>
+  <!-- 地球科学博物馆 -->
+  <image src="{{HB03}}" mode="aspectFit" class="HBGEOEarth" bindtap="HBGEOEarth"></image>
+  <!-- 河北省地质博物馆 -->
+  <image src="{{HB04}}" mode="aspectFit" class="HBGeology" bindtap="HBGeology"></image>
+  <!-- 河北省科学技术馆 -->
+  <image src="{{HB05}}" mode="aspectFit" class="hbScience" bindtap="hbScience"></image>
+  <!-- 热河地质博物馆 -->
+  <image src="{{HB08}}" mode="aspectFit" class="hotGeology" bindtap="hotGeology"></image>
+  <!-- 柳江地学博物馆博物馆 -->
+  <image src="{{HB09}}" mode="aspectFit" class="liujiangGeology" bindtap="liujiangGeology"></image>
+  <!-- 秦皇岛鸟类博物馆 -->
+  <image src="{{HB10}}" mode="aspectFit" class="qhdBird" bindtap="qhdBird"></image>
+  <!-- 贝克王国科普博物馆 -->
+  <image src="{{HB11}}" mode="aspectFit" class="shell" bindtap="shell"></image>
+  <!-- 中国航标展馆 -->
+  <image src="{{HB12}}" mode="aspectFit" class="chineseAviation" bindtap="chineseAviation"></image>
+  <!-- 中国唐山地震博物馆 -->
+  <image src="{{HB06}}" mode="aspectFit" class="chineseTangshang" bindtap="chineseTangshang"></image>
+  <!-- 中国唐山地震博物馆 -->
+  <image src="{{HB07}}" mode="aspectFit" class="hbSeaSalt" bindtap="hbSeaSalt"></image>
+  <!-- 背景图 -->
+  <image src="{{HB}}" mode="scaleToFill" class="main"></image>
+</view>
+

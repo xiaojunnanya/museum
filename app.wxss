@@ -1,0 +1,106 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+/* 设成全局组件 */
+.cd{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: 3%;
+  right: 2%;
+}
+
+/* 内容介绍里的标题，内容，图片 */
+.title{
+  text-align: center;
+  font-size: 50rpx;
+  font-weight: 700;
+  padding-bottom: 20rpx;
+  font-family:'Times New Roman', Times, serif
+}
+.describe{
+  padding: 0 30rpx;
+  line-height: 50rpx;
+  text-indent: 2em;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family:'Times New Roman', Times, serif
+}
+.aboutImgView{
+  width: fit-content;
+  margin: auto;
+  padding: 10rpx 0;
+}
+
+/* 答题的样式 */
+.allExam{
+  margin: 20rpx 40rpx;
+  letter-spacing: 4rpx;
+  font-family:'Times New Roman', Times, serif
+}
+.optionExam{
+  margin: 20rpx 30rpx;
+}
+.trueAnswer{
+  color: rgb(243, 106, 106);
+  padding: 10rpx 0;
+  width: 80vw;
+  font-weight: 600;
+}
+.falseAnswer{
+  color: black;
+  padding: 10rpx 0;
+  width: 80vw;
+}
+/* 提交按钮 */
+.submitExam,.submitExam:visited{
+  margin-bottom: 20rpx;
+  background-color: blue;
+  color: #fff;
+}
+/* 提交按钮点击的颜色 */
+.submitExam:active{
+  background-color: #1989FA;
+}
+/* radio设置成圆形 */
+radio .wx-radio-input{
+  width: 40rpx;
+  height: 40rpx;
+  min-width: 40rpx;
+  min-height: 40rpx;
+}/* 
+radio .wx-radio-input.wx-radio-input-checked::before {
+  去除对号
+  content: '';
+}
+radio .wx-radio-input.wx-radio-input-disabled {
+  color: #1989FA;
+} */
+/*选中样式*/
+radio .wx-radio-input.wx-radio-input-checked {
+  border-color: #1989FA !important;
+  background: #1989FA !important;
+}
+radio .wx-radio-input.wx-radio-input-checked::before {
+  content: '';
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+/*禁用样式*/
+radio .wx-radio-input.wx-radio-input-disabled {
+  border-radius: 100%;
+}

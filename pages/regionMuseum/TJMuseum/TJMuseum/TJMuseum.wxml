@@ -1,0 +1,19 @@
+<!--天津-->
+<view style="position: relative;">
+  <!-- 天津自然博物馆 -->
+  <image src="{{TJ01}}" mode="aspectFit" class="tjNatural" bindtap="tjNatural"></image>
+  <!-- 蓟县地质博物馆 -->
+  <image src="{{TJ02}}" mode="aspectFit" class="jixianGeology" bindtap="jixianGeology"></image>
+  <!-- 国家海洋博物馆 -->
+  <image src="{{TJ03}}" mode="aspectFit" class="countryOcean" bindtap="countryOcean"></image>
+  <!-- 天津节水科技馆 -->
+  <image src="{{TJ04}}" mode="aspectFit" class="tjSaveWater" bindtap="tjSaveWater"></image>
+  <!-- 天津电力科技博物馆 -->
+  <image src="{{TJ05}}" mode="aspectFit" class="tjElectric" bindtap="tjElectric"></image>
+  <!-- 天津科学技术馆 -->
+  <image src="{{TJ06}}" mode="aspectFit" class="tjScience" bindtap="tjScience"></image>
+  <!-- 滨海技术馆 -->
+  <image src="{{TJ07}}" mode="aspectFit" class="bhTechnology" bindtap="bhTechnology"></image>
+  <!-- 背景图 -->
+  <image src="{{TJ}}" mode="scaleToFill" class="main"></image>
+</view>

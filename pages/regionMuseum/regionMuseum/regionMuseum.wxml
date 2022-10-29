@@ -1,0 +1,11 @@
+<!--区域博物馆-->
+<view style="position: relative;">
+  <!-- 河北 -->
+  <image src="{{regionMuseumHB}}" mode="aspectFit" class="HB" bindtap="HB" bindtouchstart="HBTouchstart" bindtouchend="HBTouchend" style="width: {{HB.width}};height: {{HB.height}};top: {{HB.top}};left: {{HB.left}};"></image>
+  <!-- 北京 -->
+  <image src="{{regionMuseumBJ}}" mode="aspectFit" class="BJ" bindtap="BJ" bindtouchstart="BJTouchstart" bindtouchend="BJTouchend" style="width: {{BJ.width}};height: {{BJ.height}};top: {{BJ.top}};left: {{BJ.left}};"></image>
+  <!-- 天津 -->
+  <image src="{{regionMuseumTJ}}" mode="aspectFit" class="TJ" bindtap="TJ" bindtouchstart="TJTouchstart" bindtouchend="TJTouchend" style="width: {{TJ.width}};height: {{TJ.height}};top: {{TJ.top}};left: {{TJ.left}};"></image>
+  <!-- 背景图 -->
+  <image src="{{regionMuseum}}" mode="scaleToFill" class="main"></image>
+</view>

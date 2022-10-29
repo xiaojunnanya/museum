@@ -1,0 +1,188 @@
+/* 背景图 */
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
+/* 中国地址博物馆 */
+.chineseGeology{
+  position: absolute;
+  width: 130rpx;
+  height: 100rpx;
+  left: 15%;
+  top: 45%;
+  animation:chineseGeology 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseGeology
+{
+	0%{
+    width: 130rpx;
+    height: 60rpx;
+    left: 30%;
+    top: 25%;
+  }
+  100% 
+  {
+    width: 130rpx;
+    height: 100rpx;
+    left: 15%;
+    top: 45%;
+  }
+}
+/* 中国唐山地震博物馆 */
+.chineseTangshang{
+  position: absolute;
+  width: 100rpx;
+  height: 70rpx;
+  left: 3%;
+  top: 52%;
+  animation:chineseTangshang 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseTangshang
+{
+	0%{
+    width: 100rpx;
+    height: 70rpx;
+    left: 30%;
+    top: 25%;
+  }
+  100% 
+  {
+    width: 100rpx;
+    height: 70rpx;
+    left: 3%;
+    top: 52%;
+  }
+}
+/* 热河地址博物馆 */
+.hotGeology{
+  position: absolute;
+  width: 150rpx;
+  height: 80rpx;
+  left: 25.5%;
+  top: 73%;
+  animation:hotGeology 1s;
+  animation-timing-function: linear;
+}
+@keyframes hotGeology
+{
+	0%{
+    width: 150rpx;
+    height: 80rpx;
+    left: 30%;
+    top: 25%;
+  }
+  100% 
+  {
+    width: 150rpx;
+    height: 80rpx;
+    left: 25.5%;
+    top: 73%;
+  }
+}
+/* 柳江地学博物馆 */
+.liujiangGeology{
+  position: absolute;
+  width: 70rpx;
+  height: 80rpx;
+  left: 46.5%;
+  top: 67%;
+  animation:liujiangGeology 1s;
+  animation-timing-function: linear;
+}
+@keyframes liujiangGeology
+{
+	0%{
+    width: 70rpx;
+    height: 80rpx;
+    left: 30%;
+    top: 25%;
+  }
+  100% 
+  {
+    width: 70rpx;
+    height: 80rpx;
+    left: 46.5%;
+    top: 67%;
+  }
+}
+/* 蓟县地质博物馆 */
+.jixianGeology{
+  position: absolute;
+  width: 90rpx;
+  height: 55rpx;
+  left: 61%;
+  top: 80%;
+  animation:jixianGeology 1s;
+  animation-timing-function: linear;
+}
+@keyframes jixianGeology
+{
+	0%{
+    width: 190rpx;
+    height: 55rpx;
+    left: 30%;
+    top: 25%;
+  }
+  100% 
+  {
+    width: 90rpx;
+    height: 55rpx;
+    left: 61%;
+    top: 80%;
+  }
+}
+/* 河北省地质博物馆 */
+.HBGeology{
+  position: absolute;
+  width: 68rpx;
+  height: 92rpx;
+  left: 78%;
+  top: 74%;
+  animation:HBGeology 1s;
+  animation-timing-function: linear;
+}
+@keyframes HBGeology
+{
+	0%{
+    width: 68rpx;
+    height: 92rpx;
+    left: 30%;
+    top: 25%;
+  }
+  100% 
+  {
+    width: 68rpx;
+    height: 92rpx;
+    left: 78%;
+    top: 74%;
+  }
+}
+/* 河北地质大学地球科学博物馆 */
+.HBGEOEarth{
+  position: absolute;
+  width: 85rpx;
+  height: 60rpx;
+  left: 88%;
+  top: 93%;
+  animation:HBGEOEarth 1s;
+  animation-timing-function: linear;
+}
+@keyframes HBGEOEarth
+{
+	0%{
+    width: 85rpx;
+    height: 60rpx;
+    left: 30%;
+    top: 25%;
+  }
+  100% 
+  {
+    width: 85rpx;
+    height: 60rpx;
+    left: 88%;
+    top: 93%;
+  }
+}

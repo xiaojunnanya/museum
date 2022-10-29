@@ -1,0 +1,148 @@
+/* 背景图 */
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
+/* 北京科学中心 */
+.bjTechnology{
+  position: absolute;
+  width:130rpx;
+  height: 83rpx;
+  top: 36%;
+  left: 11%;
+  animation:bjTechnology 1s;
+  animation-timing-function: linear;
+}
+@keyframes bjTechnology
+{
+	0%{width:130rpx;height: 83rpx;top: 63%;left: 41%;}
+  25%{width:130rpx;height: 83rpx;top: 50%;left: 38%;}
+  50%{width:130rpx;height: 83rpx;top: 44%;left: 35%;} 
+  75%{width:130rpx;height: 83rpx;top: 41%;left: 27%;}
+  100% {width:130rpx;height: 83rpx;top: 36%;left: 11%;}
+}
+/* 滨海科技馆 */
+.bhTechnology{
+  position: absolute;
+  width:110rpx;
+  height: 83rpx;
+  top: 53%;
+  left: 18%;
+  animation:bhTechnology 1s;
+  animation-timing-function: linear;
+}
+@keyframes bhTechnology
+{
+	0%{width:110rpx;height: 83rpx;top: 63%;left: 41%;}
+  25%{width:110rpx;height: 83rpx;top: 55%;left: 39%;}
+  50%{width:110rpx;height: 83rpx;top: 49%;left: 34%;} 
+  75%{width:110rpx;height: 83rpx;top: 49%;left: 30%;}
+  100% {width:110rpx;height: 83rpx;top: 53%;left: 18%;}
+}
+/* 天津电力科技博物馆 */
+.tjElectric{
+  position: absolute;
+  width:134rpx;
+  height: 76rpx;
+  top: 72%;
+  left: 9%;
+  animation:tjElectric 1s;
+  animation-timing-function: linear;
+}
+@keyframes tjElectric
+{
+	0%{width:134rpx;height: 76rpx;top: 63%;left: 41%;}
+  50%{width:134rpx;height: 76rpx;top: 60%;left: 22%;} 
+  100% {width:134rpx;height: 76rpx;top: 72%;left: 9%;}
+}
+/* 中国测绘科技馆 */
+.chineseMapping{
+  position: absolute;
+  width:130rpx;
+  height: 83rpx;
+  top: 81%;
+  left: 37%;
+  animation:chineseMapping 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseMapping
+{
+	0%{width:130rpx;height: 83rpx;top: 63%;left: 41%;}
+  25%{width:130rpx;height: 83rpx;top: 53%;left: 33%;}
+  50%{width:130rpx;height: 83rpx;top: 63%;left: 34%;} 
+  75%{width:130rpx;height: 83rpx;top: 72%;left: 36%;}
+  100% {width:130rpx;height: 83rpx;top: 81%;left: 37%;}
+}
+/* 中国科学技术馆 */
+.chineseScience{
+  position: absolute;
+  width:128rpx;
+  height: 83rpx;
+  top: 82%;
+  left: 61%;
+  animation:chineseScience 1s;
+  animation-timing-function: linear;
+}
+@keyframes chineseScience
+{
+	0%{width:128rpx;height: 83rpx;top: 63%;left: 41%;}
+  25%{width:128rpx;height: 83rpx;top: 66%;left: 53%;}
+  50%{width:128rpx;height: 83rpx;top: 73%;left: 57%;} 
+  75%{width:128rpx;height: 83rpx;top: 78%;left: 59%;}
+  100% {width:128rpx;height: 83rpx;top: 82%;left: 61%;}
+}
+/* 天津科学技术馆 */
+.tjScience{
+  position: absolute;
+  width:130rpx;
+  height: 92rpx;
+  top: 69%;
+  left: 71%;
+  animation:tjScience 1s;
+  animation-timing-function: linear;
+}
+@keyframes tjScience
+{
+	0%{width:130rpx;height: 92rpx;top: 63%;left: 41%;}
+  25%{width:130rpx;height: 92rpx;top: 60%;left: 50%;}
+  50%{width:130rpx;height: 92rpx;top: 56%;left: 58%;} 
+  75%{width:130rpx;height: 92rpx;top: 62%;left: 65%;}
+  100% {width:130rpx;height: 92rpx;top: 69%;left: 71%;}
+}
+/* 河北省科学技术馆 */
+.hbScience{
+  position: absolute;
+  width:133rpx;
+  height: 70rpx;
+  top: 53%;
+  left: 67%;
+  animation:hbScience 1s;
+  animation-timing-function: linear;
+}
+@keyframes hbScience
+{
+	0%{width:133rpx;height: 70rpx;top: 63%;left: 41%;}
+  25%{width:133rpx;height: 70rpx;top: 55%;left: 46%;}
+  50%{width:133rpx;height: 70rpx;top: 48%;left: 50%;} 
+  75%{width:133rpx;height: 70rpx;top: 50%;left: 58%;}
+  100% {width:133rpx;height: 70rpx;top: 53%;left: 67%;}
+}
+/* 北京市海淀科技中心馆 */
+.bjhdTechnology{
+  position: absolute;
+  width:133rpx;
+  height: 68rpx;
+  top: 39%;
+  left: 61%;
+  animation:bjhdTechnology 1s;
+  animation-timing-function: linear;
+}
+@keyframes bjhdTechnology
+{
+	0%{width:133rpx;height: 68rpx;top: 63%;left: 41%;}
+  25%{width:133rpx;height: 68rpx;top: 53%;left: 45%;}
+  50%{width:133rpx;height: 68rpx;top: 43%;left: 48%;} 
+  75%{width:133rpx;height: 68rpx;top: 33%;left: 51%;}
+  100% {width:133rpx;height: 68rpx;top: 39%;left: 61%;}
+}

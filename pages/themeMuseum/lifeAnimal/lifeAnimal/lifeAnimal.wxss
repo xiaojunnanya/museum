@@ -1,0 +1,116 @@
+/* 背景图 */
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
+/* 秦皇岛鸟类博物馆 */
+.qhdBird{
+  position: absolute;
+  width: 363rpx;
+  height: 190rpx;
+  left: 5%;
+  top: 17%;
+}
+/* 北京急救科技馆 */
+.bjFirstAid{
+  position: absolute;
+  width: 315rpx;
+  height: 205rpx;
+  left: 5%;
+  top: 34%;
+  animation:bjFirstAid 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes bjFirstAid
+{
+	0%{width:315rpx;height: 205rpx;left: 3%;top: 34%;}
+  50%{width:315rpx;height: 205rpx;left: 7%;top: 34%;} 
+  100% {width:315rpx;height: 205rpx;left: 3%;top: 34%;}
+}
+/* 北京自然博物馆 */
+.bjNatural{
+  position: absolute;
+  width: 335rpx;
+  height: 205rpx;
+  left: 53%;
+  top: 34%;
+  animation:bjNatural 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes bjNatural
+{
+	0%{width:335rpx;height: 205rpx;left: 55%;top: 34%;}
+  50%{width:335rpx;height: 205rpx;left: 51%;top: 34%;}
+  100% {width:335rpx;height: 205rpx;left: 55%;top: 34%;}
+}
+/* 贝壳王国科普博物馆 */
+.shell{
+  position: absolute;
+  width: 355rpx;
+  height: 245rpx;
+  left: 5%;
+  top: 54%;
+  animation:shell 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes shell
+{
+	0%{width:355rpx;height: 245rpx;left: 3%;top: 54%;}
+  50%{width:355rpx;height: 245rpx;left: 7%;top: 54%;}
+  100% {width:355rpx;height: 245rpx;left: 3%;top: 54%;}
+}
+/* 国家动物博物馆 */
+.chineseAnimal{
+  position: absolute;
+  width: 290rpx;
+  height: 253rpx;
+  left: 56%;
+  top: 54%;
+  animation:chineseAnimal 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes chineseAnimal
+{
+	0%{width:290rpx;height: 253rpx;left: 58%;top: 54%;}
+  50%{width:290rpx;height: 253rpx;left: 54%;top: 54%;}
+  100% {width:290rpx;height: 253rpx;left: 58%;top: 54%;}
+}
+/* 中国古动物馆 */
+.chineseAncient{
+  position: absolute;
+  width: 335rpx;
+  height: 265rpx;
+  left: 7%;
+  top: 76%;
+  animation:chineseAncient 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes chineseAncient
+{
+	0%{width:335rpx;height: 265rpx;left: 5%;top: 76%;}
+  50%{width:335rpx;height: 265rpx;left: 9%;top: 76%;}
+  100% {width:335rpx;height: 265rpx;left: 5%;top: 76%;}
+}
+/* 中国农业博物馆 */
+.chineseAgriculture{
+  position: absolute;
+  width: 270rpx;
+  height: 245rpx;
+  left: 58%;
+  top: 77.5%;
+  animation:chineseAgriculture 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes chineseAgriculture
+{
+	0%{width:270rpx;height: 245rpx;left: 60%;top: 77.5%;}
+  50%{width:270rpx;height: 245rpx;left: 56%;top: 77.5%;}
+  100% {width:270rpx;height: 245rpx;left: 60%;top: 77.5%;}
+}

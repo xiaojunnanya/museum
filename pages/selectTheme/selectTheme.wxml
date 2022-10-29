@@ -1,0 +1,10 @@
+<!-- 选择的是主题博物馆还是区域博物馆 -->
+<view style="position: relative;">
+  <!-- 主题博物馆体验 -->
+  <image src="{{selectTheme01}}" mode="aspectFit" class="themeMuseum" bindtap="themeMuseum" bindtouchstart="themeMuseumTouchstart" bindtouchend="themeMuseumTouchend" style="width: {{themeMuseum.width}};height: {{themeMuseum.height}};top: {{themeMuseum.top}};left: {{themeMuseum.left}};"></image>
+  <!-- 区域博物馆体验 -->
+  <image src="{{selectTheme02}}" mode="aspectFit" class="regionMuseum" bindtap="regionMuseum" bindtouchstart="regionMuseumTouchstart" bindtouchend="regionMuseumTouchend" style="width: {{regionMuseum.width}};height: {{regionMuseum.height}};top: {{regionMuseum.top}};left: {{regionMuseum.left}};"></image>
+  <button class="examButton" bindtap="selectExam">点击选择主题答题赢大奖</button>
+  <!-- 背景图 -->
+  <image src="{{selectTheme}}" mode="scaleToFill" class="main"></image>
+</view>

@@ -1,0 +1,33 @@
+.earthGeology{
+  position: absolute;
+  /* width: 300rpx;
+  height: 160rpx;
+  top: 12%;
+  left:7%; */
+}
+.lifeAnimal{
+  position: absolute;
+  /* width: 300rpx;
+  height: 160rpx;
+  top: 12%;
+  left: 53%; */
+}
+.naturalOcean{
+  position: absolute;
+  /* width: 300rpx;
+  height: 160rpx;
+  top: 42%;
+  left: 8%; */
+}
+.technologyLife{
+  position: absolute;
+  /* width: 300rpx;
+  height: 160rpx;
+  top: 42%;
+  left: 53%; */
+}
+.main{
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
